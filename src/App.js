@@ -1,12 +1,18 @@
 import Navbar from './Components/Navbar';
 import './App.css';
+import Hero from './Components/Hero';
+import Content from './Components/Content';  
+
 
 function App() {
   return (
-    <div className="App">
-    <h1 className="text-gray-600"> Hello welcome to the show!!</h1>
+    <>
+    
     <Navbar />
-    </div>
+    <Hero />
+    <Content />
+
+    </>
   );
 }
 
